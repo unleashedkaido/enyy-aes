@@ -65,7 +65,7 @@ body {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("public/bg/main.png");
+    url("bg/main.png");
   background-size: cover;
   background-position: center;
   color: white;
