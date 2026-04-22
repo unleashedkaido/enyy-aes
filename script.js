@@ -50,3 +50,10 @@ Message: ${message}`;
 
   window.open(url, "_blank");
 });
+
+const toggle = document.querySelector(".menu-toggle");
+const nav = document.querySelector(".nav-links");
+
+toggle.addEventListener("click", () => {
+  nav.classList.toggle("active");
+});
